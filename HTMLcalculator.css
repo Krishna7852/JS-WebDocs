@@ -1,0 +1,20 @@
+
+.calc1 {
+margin-left: 500px;
+margin-right: 1200px;
+
+}
+#value1 {
+  margin-bottom: 20px;
+}
+div.option {
+  margin-left: 160px;
+  margin-top: 15px;
+}
+.button {
+  margin-left: 100px;
+}
+#set {
+  background-color: #faebd7;
+  border-radius: 6px;
+}

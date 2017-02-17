@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="txt"></p>
+    <script>
+      function History(first,last ,age,eye) {
+        this.firstName = first;
+        this.lastName = last;
+        this.myAge = age;
+        this.eyeColor = eye;
+
+        // adding new property
+        // this.nationality = "Indian";
+
+
+        // Display full name :---
+        // this.name = function() {
+      //  return this.firstName + " " + this.lastName;
+  //  }
+      }
+
+      // prototype property also allows you to add new methods to an existing prototype:
+      // History.prototype.nationality = "Indian" ;
+
+      var Myself = new History("krishna" ,"bhamare" ,24 ,"blue");
+      var Friend = new History("vivek" ,"havalad" ,65 ,"red");
+
+
+      var x = "krishna is "+Myself.myAge+"year old & vivek is "+Friend.myAge+" year old.";
+      document.getElementById('txt').innerHTML=x;
+
+      // another wawy to display output
+      // alert(Myself.name());
+        // alert("my nationality is :"+Myself.nationality);
+
+
+    </script>
+  </body>
+</html>

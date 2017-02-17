@@ -1,0 +1,10 @@
+.para {
+    text-transform: capitalize;
+}
+#field {
+  margin-right: 600px;
+  background-color: lightblue;
+}
+[name=button] {
+  margin-left: 300px;
+}
